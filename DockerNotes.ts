@@ -67,3 +67,35 @@
 // ls -1 -> to see the files in the list format
 
 // rmdir {name of the folder} -> to remove the folder
+
+
+// apt-get upgrade -> to upgrade the packages
+// apt-get update -> to update the packages
+// apt-get install {packageName} -> to install the package
+
+
+// nano {name of the file} -> to edit the file
+// cat {name of the file} -> to see the content of the file
+// more {name of the file} -> to see the content of the file
+// less {name of the file} -> to see the content of the file
+// head {name of the file} -> to see the content of the file
+// tail {name of the file} -> to see the content of the file
+
+// All the above command use to see the content of the file but the difference is that they show the content in different ways.
+
+// apt-get remove {packageName} -> to remove the package
+
+// cat file.txt > file2.txt -> to copy the content of file.txt to file2.txt
+// cat file.txt >> file2.txt -> to append the content of file.txt to file2.txt
+// cat file.txt | grep {word} -> to search the word in the file.txt
+
+// grep {word} file.txt -> to search the word in the file.txt
+// grep -i {word} file.txt -> to search the word in the file.txt in case insensitive way
+// grep -c {word} file.txt -> to count the number of times the word is present in the file.txt
+// grep -n {word} file.txt -> to show the line number of the word in the file.txt
+
+// grep -i hello file* -> to search the word hello in all the files in the current directory
+
+// find / -type f -name "*.py" -> to find the files with .py extension in the root directory
+
+// find / -type f -name "*.py" > res.txt -> to save the output of the above command in the res.txt file
