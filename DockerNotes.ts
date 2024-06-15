@@ -38,11 +38,11 @@
 // docker ps
 
 
-// To intract with the ubuntu container
+// To interact with the ubuntu container
 // sudo docker run -it ubuntu
 
 
-// Linux Distrobution
+// Linux Distribution
 
 // 1. Alpine Linux
 // 2. Ubuntu
@@ -56,3 +56,14 @@
 // 10. Kali Linux
 // 11. RHEL
 // 12. SLES
+
+
+// if you want to install any package to install then First do apt update and then apt install {packageName}
+
+// mkdir {name of the folder}
+
+// touch {name of the file.extension}
+
+// ls -1 -> to see the files in the list format
+
+// rmdir {name of the folder} -> to remove the folder
