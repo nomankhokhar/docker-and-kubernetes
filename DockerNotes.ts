@@ -105,3 +105,25 @@
 // grep -i hello file* -> to search the word hello in all the files in the current directory
 // find / -type f -name "*.py" -> to find the files with .py extension in the root directory
 // find / -type f -name "*.py" > res.txt -> to save the output of the above command in the res.txt file
+
+
+// Chaining the commands
+
+
+// mkdir test; cd test; touch file.txt -> to create the folder test and then go to the folder test and then create the file file.txt
+// if any command fails then the next command will not run in below code
+// mkdir test && cd test && touch file.txt -> to create the folder test and then go to the folder test and then create the file file.txt
+// mkdir {name of the folder} || echo "Folder already exists" -> to create the folder if it does not exist otherwise print the message "Folder already exists"
+// ls /bin | less -> to see the content of the /bin directory using less command
+// ls /bin | more -> to see the content of the /bin directory using more command
+
+
+// Environments Variables
+
+
+// printenv -> to see the environment variables
+// export {variableName}={value} -> to set the environment variable
+// echo $variableName -> to see the value of the environment variable
+// docker start -i {containerId} -> to start the container in interactive mode
+// echo DB_USER >> .bashrc -> to add the environment variable in the .bashrc file put two time >> to append the value
+// docker ps -a -> to see the all the containers of the docker
