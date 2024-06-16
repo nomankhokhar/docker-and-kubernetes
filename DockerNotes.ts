@@ -131,8 +131,8 @@
 // env -> to see the environment variables
 
 
-
 // Manage the processes
+
 
 // ps -> print currently process
 // kill {id} -> to kill the any process
@@ -144,3 +144,11 @@
 
 // useradd {name of the user}
 // docker exec -it -u {name of user} {containerID} bash
+// userdel {user name} -> to add new user in the linux system
+// adduser {name} -> another old way to add new user in the linux system
+
+
+// File Permission's
+
+
+// chmod og+w+x-r -> to add permission to the files
