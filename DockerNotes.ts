@@ -127,3 +127,20 @@
 // docker start -i {containerId} -> to start the container in interactive mode
 // echo DB_USER >> .bashrc -> to add the environment variable in the .bashrc file put two time >> to append the value
 // docker ps -a -> to see the all the containers of the docker
+// source .bashrc -> to load the environment variable in the current terminal
+// env -> to see the environment variables
+
+
+
+// Manage the processes
+
+// ps -> print currently process
+// kill {id} -> to kill the any process
+// ps -a -> to show current process that currently running
+
+
+// Users Management's
+
+
+// useradd {name of the user}
+// docker exec -it -u {name of user} {containerID} bash
