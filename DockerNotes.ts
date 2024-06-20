@@ -152,3 +152,29 @@
 
 
 // chmod og+w+x-r -> to add permission to the files
+
+
+// Containers
+
+// Provides and isolated environment for running an application
+// Containers are lightweight and portable
+// Is just a process!
+
+// Images
+
+// A cut down OS, a runtime and an application code
+// All needy application to run the application
+
+// If we run two containers of the same image then they will have the same file system but they will have different processes and network stack.
+
+
+// Dockerfile
+
+// A Dockerfile contains instructions for building an image
+
+// Dockerfile Instructions
+// 1. FROM
+// 2. WORKDIR
+// 3. COPY
+// 4. ADD
+// 5. RUN
