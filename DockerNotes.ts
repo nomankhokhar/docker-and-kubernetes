@@ -173,8 +173,89 @@
 // A Dockerfile contains instructions for building an image
 
 // Dockerfile Instructions
-// 1. FROM
-// 2. WORKDIR
-// 3. COPY
-// 4. ADD
-// 5. RUN
+// 1. FROM -> Base image like alpine or ubuntu
+// 2. WORKDIR -> Working directory in base image
+// 3. COPY -> Copy files from host to container
+// 4. ADD -> Copy files from host to container
+// 5. RUN -> Run commands in the container
+// 6. ENV -> Set environment variables
+// 7. EXPOSE -> Expose ports to use the App
+// 8. USER -> add user with limited privileges
+// 9. CMD -> CMD and entrypoint to run when we start the container
+// 10. ENTRYPOINT -> see the above line -_-
+
+
+
+// Dockerize React App
+
+// docker run -it react-app sh -> alpine image do not comes with bash so we use sh
+
+
+// Copying file and directories from host to container
+// COPY {source} {destination}
+// COPY . . -> to copy all the files from host to container
+// COPY package.json . -> to copy the package.json file from host to container
+// If there is space in file name then we use double quotes
+// COPY ["hello world.py", "."]
+
+
+// When to use COPY:
+
+//     When you need to copy local files or directories into the Docker image.
+//     When you want to avoid downloading remote files or extracting archives.
+
+// When to use ADD:
+
+//     When you need to download files from a remote URL.
+//     When you need to extract archives into the Docker image.
+
+
+
+
+// Exclude files and directories
+
+
+// .dockerignore -> to exclude the files and directories add the name of the file or directory in the .dockerignore file
+
+
+
+// Running the Commands
+
+// RUN npm install -> to run the commands in the container
+
+
+
+// Setting the Environment Variables
+
+// ENV API_URL=http://localhost:8000 -> to set the environment variable in the container
+
+
+
+// Exposing the Ports
+
+// EXPOSE 3000 -> to expose the port 3000 in the container
+
+
+
+// Setting the User
+
+// RUN addgroup app && adduser -S -G app app
+// USER app
+
+
+// Defining the Entry Point
+
+// CMD is typically used to start a service or application in the container. To summarize, RUN is used to execute commands during the build process of a Docker image, while CMD is used to specify the default command to run when a Docker container is started from the image.
+
+// CMD ["npm", "start"] -> to run the npm start command when the container starts
+
+
+
+// Speeding up the Build
+
+
+// If there is no change in the package.json file then the docker will use the cache and will not install the packages again below is the example code
+// COPY package*.json .
+// COPY . .
+
+// RUN ["npm", "install"]
