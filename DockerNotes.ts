@@ -14,31 +14,50 @@
 
 // For Building Docker Image
 
+
 // -t -> add tag to the image
 // . -> current directory for Dockerfile
 // docker build -t imageName .
 
 
+
 // To see the docker images
+
+
+
 // docker images or docker image ls
 
 
 
 // To run the container
+
+
 // sudo docker run imageName
 
 
 // to pull the image from docker hub
+
+
 // docker pull imageName
 
+
+
 // to see the logs of the container which is running and stopped
+
+
 // sudo docker ps -a
 
+
+
 // To see the running containers
+
+
 // docker ps
 
 
 // To interact with the ubuntu container
+
+
 // sudo docker run -it ubuntu
 
 
@@ -70,11 +89,14 @@
 
 // Install a new packages and update the packages
 
+
 // apt-get upgrade -> to upgrade the packages
 // apt-get update -> to update the packages
 // apt-get install {packageName} -> to install the package
 
+
 // To see the content of the file
+
 
 // nano {name of the file} -> to edit the file
 // cat {name of the file} -> to see the content of the file
@@ -83,12 +105,15 @@
 // head {name of the file} -> to see the content of the file
 // tail {name of the file} -> to see the content of the file
 
+
 // All the above command use to see the content of the file but the difference is that they show the content in different ways.
+
 
 // apt-get remove {packageName} -> to remove the package
 
 
 // To see the content of the file
+
 
 // cat file.txt > file2.txt -> to copy the content of file.txt to file2.txt
 // cat file.txt >> file2.txt -> to append the content of file.txt to file2.txt
@@ -156,9 +181,11 @@
 
 // Containers
 
+
 // Provides and isolated environment for running an application
 // Containers are lightweight and portable
 // Is just a process!
+
 
 // Images
 
@@ -173,6 +200,7 @@
 // A Dockerfile contains instructions for building an image
 
 // Dockerfile Instructions
+
 // 1. FROM -> Base image like alpine or ubuntu
 // 2. WORKDIR -> Working directory in base image
 // 3. COPY -> Copy files from host to container
@@ -227,11 +255,13 @@
 
 // Setting the Environment Variables
 
+
 // ENV API_URL=http://localhost:8000 -> to set the environment variable in the container
 
 
 
 // Exposing the Ports
+
 
 // EXPOSE 3000 -> to expose the port 3000 in the container
 
@@ -239,11 +269,13 @@
 
 // Setting the User
 
+
 // RUN addgroup app && adduser -S -G app app
 // USER app
 
 
 // Defining the Entry Point
+
 
 // CMD is typically used to start a service or application in the container. To summarize, RUN is used to execute commands during the build process of a Docker image, while CMD is used to specify the default command to run when a Docker container is started from the image.
 
@@ -257,7 +289,6 @@
 // If there is no change in the package.json file then the docker will use the cache and will not install the packages again below is the example code
 // COPY package*.json .
 // COPY . .
-
 // RUN ["npm", "install"]
 
 
@@ -301,4 +332,27 @@
 // Working with Containers
 
 
-// 
+// docker run -d {imageName} -> to run the container in the detached mode mean background
+// docker run -d --name {containerName put what you want} {imageName} -> to run the container in the detached mode with the name
+
+
+
+// Viewing the logs of the containers
+
+
+// docker logs {containerID} -> to see the logs of the container
+// docker logs -n 10 {containerID} -> to see the last 10 logs of the container
+
+
+// Publishing the ports
+
+
+// docker run -p 3000:3000 {imageName} -> to publish the port 3000 of the container to the port 3000 of the host
+// docker run -d -p 3000:3000 {imageName} -> to publish the port 3000 of the container to the port 3000 of the host
+
+
+// Executing the commands in Running Containers
+
+// sh command is like ls , pwd , cd etc
+// docker exec -it {containerID} sh -> to run the sh command in the running container
+// docker exec {containerID} ls -> to run the ls command in the running container but not in it mode
