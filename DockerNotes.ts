@@ -356,3 +356,34 @@
 // sh command is like ls , pwd , cd etc
 // docker exec -it {containerID} sh -> to run the sh command in the running container
 // docker exec {containerID} ls -> to run the ls command in the running container but not in it mode
+
+
+
+// Stopping and Starting Containers
+
+
+// run is used to start the new container
+// start is used to start the stopped container
+// stop is used to stop the running container
+
+// docker stop {containerID} -> to stop the container
+// docker start {containerID} -> to start the container
+
+
+
+// Removing the Containers
+
+
+// docker rm {containerID} -> to remove the container
+// docker container rm {containerID} -> to remove the container
+// docker rm -f {containerID} -> to forcefully remove the container if it is running
+
+
+// Persisting Data using Volumes
+
+
+// docker volume ls -> to see the volumes
+// docker volume create {volumeName} -> to create the volume
+// docker volume inspect app-data -> to see the information of the volume
+// docker run -d -p 4000:3000 -v app-data:/app/data {imageName} -> to run the container with the volume app-data and map it to the /app/data directory
+// docker exec -it {containerID} sh -> to run the sh command in the container

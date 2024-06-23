@@ -4,6 +4,7 @@ FROM node:current-alpine3.20
 # USER app
 
 WORKDIR /app
+RUN mkdir data
 COPY package*.json .
 RUN ["npm", "install"]
 COPY . .
