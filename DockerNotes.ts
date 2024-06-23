@@ -277,3 +277,28 @@
 // docker image remove {imageName}:{tag} -> to remove the tagged image
 // docker image tag {imageName}:{tag} {newImageName}:{newTag} -> to tag the image with new name and tag
 // docker image tag {imageID} {newImageName}:{newTag} -> to tag the image with new name and tag if there is more than docker images
+
+
+
+// Sharing the images
+
+
+
+// docker login -> to login to the docker hub
+// docker push {imageName}:{tag} -> to push the image to the docker hub
+// docker pull {imageName}:{tag} -> to pull the image from the docker hub
+// docker logout -> to logout from the docker hub
+
+
+// Saving and loading the Images
+
+
+// docker save -o {imageName}.tar {imageName}:{tag} -> to save the image in the tar file
+// docker load -i {imageName}.tar -> to load the image from the tar file
+
+
+
+// Working with Containers
+
+
+// 
