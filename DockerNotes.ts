@@ -387,3 +387,23 @@
 // docker volume inspect app-data -> to see the information of the volume
 // docker run -d -p 4000:3000 -v app-data:/app/data {imageName} -> to run the container with the volume app-data and map it to the /app/data directory
 // docker exec -it {containerID} sh -> to run the sh command in the container
+
+
+
+// Copying Files between the Host and Containers
+
+
+// docker cp {containerID:path of the file} {destination mean current directory} -> to copy the files between the host and container below is the example
+// docker cp ea5:/app/data/log.txt . -> to copy the log.txt file from the container to the current directory
+// docker cp log.txt ea5:/app/data -> to copy the log.txt file from the host to the container
+
+
+
+// Sharing the Source Code with the Container
+
+
+// docker run -d -p 4000:3000 -v $(pwd):/app {imageName} -> to share the source code with the container when you change the code it will automatically change in the container
+
+
+
+// Running Multi-Container Apps
