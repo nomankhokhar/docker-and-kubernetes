@@ -259,3 +259,21 @@
 // COPY . .
 
 // RUN ["npm", "install"]
+
+
+
+// Remove Images
+
+
+// docker image prune -> to remove the dangling images
+// docker container prune -> to remove the dangling containers
+// docker image rm {imageName | imageID} -> to remove the image
+
+
+// Tagging images
+
+
+// docker build -t {imageName}:{tag} . -> to tag the image
+// docker image remove {imageName}:{tag} -> to remove the tagged image
+// docker image tag {imageName}:{tag} {newImageName}:{newTag} -> to tag the image with new name and tag
+// docker image tag {imageID} {newImageName}:{newTag} -> to tag the image with new name and tag if there is more than docker images
