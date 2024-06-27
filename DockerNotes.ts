@@ -428,3 +428,31 @@
 
 
 // Copy the backend and frontend folder in this repository
+// docker-compose up
+
+
+
+// JSON and yaml formate
+
+
+// JSON -> JavaScript Object Notation
+
+// Example of JSON
+// {
+//     "name": "John",
+//     "age": 30,
+//     "cars": {
+//         "car1": "Ford",
+//         "car2": "BMW",
+//         "car3": "Fiat"
+//     }
+
+// YAML -> Yet Another Markup Language
+
+// Example of YAML
+// name: John
+// age: 30
+// cars:
+//   car1: Ford
+//   car2: BMW
+//   car3: Fiat
