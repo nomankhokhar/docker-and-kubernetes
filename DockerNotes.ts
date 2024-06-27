@@ -434,8 +434,7 @@
 
 // JSON and yaml formate
 
-
-// JSON -> JavaScript Object Notation
+// JSON -> JavaScript Object Notation extension of .json
 
 // Example of JSON
 // {
@@ -447,7 +446,7 @@
 //         "car3": "Fiat"
 //     }
 
-// YAML -> Yet Another Markup Language
+// YAML -> Yet Another Markup Language extension of .yml | .yaml
 
 // Example of YAML
 // name: John
@@ -456,3 +455,61 @@
 //   car1: Ford
 //   car2: BMW
 //   car3: Fiat
+
+
+
+// Creating compose file
+
+// version: "3.8"
+
+// services:
+//   frontend:
+//     depends_on: 
+//       - backend
+//     build: ./frontend
+//     ports:
+//       - 3000:3000
+
+//   backend: 
+//     depends_on: 
+//       - db
+//     build: ./backend
+//     ports: 
+//       - 3001:3001
+//     environment: 
+//       DB_URL: mongodb://db/vidly
+//     command: ./docker-entrypoint.sh
+
+//   db:
+//     image: mongo:4.0-xenial
+//     ports:
+//       - 27017:27017
+//     volumes:
+//       - vidly:/data/db
+
+// volumes:
+//   vidly:
+
+
+// Above is Docker compose file which is used to run the multi-container application
+// image -> to use the image from the docker hub
+// ports -> to expose the ports
+// volumes -> to create the volume
+// depends_on -> to run the container in the order
+
+
+
+// Building Images
+
+
+// docker-compose build -> to build the images
+// docker-compose up -> to run the containers
+// docker-compose up -d -> to run the containers in the detached mode
+// docker-compose down -> to stop the containers
+// docker-compose down -v -> to stop the containers and remove the volumes
+// docker-compose ps -> to see the status of the containers
+// docker-compose logs -> to see the logs of the containers
+// docker-compose logs -f -> to see the logs of the containers in the real time
+// docker-compose exec {serviceName} sh -> to run the sh command in the container
+// docker-compose build --no-cache -> to build the images without cache
+// docker-compose up --build -> to build the images and run the containers
