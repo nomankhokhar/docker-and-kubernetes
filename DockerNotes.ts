@@ -407,3 +407,24 @@
 
 
 // Running Multi-Container Apps
+
+
+// First install Docker-Compose
+// sudo apt  install docker-compose
+// docker-compose --version
+
+
+// Cleaning Up our Workspace
+
+
+// docker image ls -q -> to see the all images id
+// docker container rm $(docker container ls -aq) -> to remove all the containers
+// docker container rm -f $(docker container ls -aq) -> to remove all the containers
+// sudo docker image rm -f $(sudo docker image ls -q) -> to remove all the images at once
+
+
+
+// The Simple Web Application
+
+
+// Copy the backend and frontend folder in this repository
