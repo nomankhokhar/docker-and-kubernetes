@@ -101,3 +101,26 @@
 // 50. **docker info**: This command provides detailed information about the Docker installation, including number of containers and images, storage driver, and operating system.
 
 // These commands cover a wide range of Docker operations, from managing containers and images to networking, volumes, and Docker Compose. Understanding and mastering these commands will empower you to efficiently work with Docker containers and images.
+
+
+
+// To Uninstall the Docker Engine, CLI, and Containerd packages, use the following command:
+
+// sudo apt-get purge -y docker-engine docker docker.io docker-ce  
+// sudo apt-get autoremove -y --purge docker-engine docker docker.io docker-ce  
+// sudo umount /var/lib/docker/
+// sudo rm -rf /var/lib/docker /etc/docker
+// sudo rm /etc/apparmor.d/docker
+// sudo groupdel docker
+// sudo rm -rf /var/run/docker.sock
+// sudo rm -rf /usr/bin/docker-compose
+
+
+
+
+// dpkg -l | grep -i docker
+// sudo apt remove --purge docker-ce docker-ce-cli containerd.io
+// sudo rm -rf /var/lib/docker
+// sudo rm -rf /var/lib/containerd
+// sudo apt autoremove -y
+// sudo apt autoclean

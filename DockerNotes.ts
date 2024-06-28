@@ -513,3 +513,91 @@
 // docker-compose exec {serviceName} sh -> to run the sh command in the container
 // docker-compose build --no-cache -> to build the images without cache
 // docker-compose up --build -> to build the images and run the containers
+
+
+
+// Staring and Stopping the application
+
+
+// docker-compose up -> to start the application
+// docker-compose down -> to stop the application
+// docker-compose up -d -> to start the application in the detached mode
+// docker-compose down -v -> to stop the application and remove the volumes
+// docker compose ps -> to see the status of the containers that is running
+
+
+
+// Docker Networking
+
+
+// docker network ls -> to see the networks
+// docker exec -it -u root {containerID} sh -> to run the sh command in the container as a root user
+// # sign mean we have root access 
+// I attached the some files to this Repo for the Docker networking
+
+
+
+// Viewing the logs
+
+
+
+// docker compose logs -> to see the logs of the containers
+// docker compose logs -f -> to see the logs of the containers in the real time
+// docker compose logs {serviceName} -> to see the logs of the specific service
+// docker compose logs -f {serviceName} -> to see the logs of the specific service in the real time
+
+
+
+// Publishing the Changes
+
+
+// add volume in the docker-compose file to share the source code with the container
+
+// For the frontend add the below line in the docker-compose file
+// volumes:
+//      - ./frontend:/app
+
+
+// For the backend add the below line in the docker-compose file
+// volumes:
+//      - ./backend:/app
+
+
+
+// Migrating the Database
+
+
+// Migrating the database refers to the process of transferring data, schema, and sometimes functionality from one version of a database to another. This process is essential when upgrading to a new version of a database management system (DBMS), moving data to a different platform, or restructuring the database schema to accommodate changes in application requirements.
+
+// wait-for is script that waits for the specified host and port to be available before executing a command. It is useful for coordinating the startup of multiple containers that depend on each other.
+
+// command: ./wait-for db:27017 migrate-mongo up && npm start -> to run the migrate-mongo up command before starting the application
+
+// To achieve the same we can use the below command
+
+// command: ./docker-entrypoint.sh -> to run the docker-entrypoint.sh script before starting the application
+
+// Copy the below code and paste it in the docker-entrypoint.sh file
+
+// #!/bin/sh
+
+// echo "Waiting for MongoDB to start..."
+// ./wait-for db:27017 
+
+// echo "Migrating the databse..."
+// npm run db:up 
+
+// echo "Starting the server..."
+// npm start 
+
+
+
+
+// Running the Tests
+
+
+// web-tests:
+//    image: {imageName}
+//    volumes:
+//       - ./frontend:/app
+//    command: npm test -> to run the tests in the container
