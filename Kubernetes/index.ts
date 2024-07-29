@@ -64,4 +64,33 @@
 // see -> components name.png
 
 
-// K8s Architecture explained/master and node
+// K8s Architecture explained/master and worker node
+
+
+// 3 Node processes
+
+// 1. Kubelet
+// 2. kube Proxy
+// 3. Container runtime
+
+
+// Master node processes
+
+// see -> ApiServer.png
+// see -> Schedular.png
+// see -> Controller Manager.png
+// see -> etcd.png
+
+// ApiServer: The API server is a component of the Kubernetes control plane that exposes the Kubernetes API. The API server is the front end for the Kubernetes control plane
+// Schedular: The scheduler is a component of the Kubernetes control plane that assigns Pods to available Nodes
+// Controller Manager: The controller manager is a component of the Kubernetes control plane that runs controller processes
+// etcd: Consistent and highly-available key value store used as Kubernetes' backing store for all cluster data
+
+// Control Plane: The control plane's components make global decisions about the cluster (for example, scheduling), as well as detecting and responding to cluster events (for example, starting up a new pod when a deployment's replicas field is unsatisfied)
+// see -> architecture.png
+
+
+// Minikube vs kubectl
+
+// Minikube: Minikube is a tool that makes it easy to run Kubernetes locally. Minikube runs a single-node Kubernetes cluster inside a VM on your laptop for users looking to try out Kubernetes or develop with it day-to-day
+// kubectl: The Kubernetes command-line tool, kubectl, allows you to run commands against Kubernetes clusters. You can use kubectl to deploy applications, inspect and manage cluster resources, and view logs
