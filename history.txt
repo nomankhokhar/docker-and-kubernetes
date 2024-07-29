@@ -1,0 +1,1000 @@
+  647  yarn 
+  648  yarn run dev
+  649  git checkout handle-errors-byiram
+  650  git pull
+  651  yarn run dev
+  652  git status
+  653  gpedit slide_link.txt
+  654  gedit slide_link.txt
+  655  code .
+  656  git add .
+  657  git commit -m "update readme"
+  658  git push
+  659  git add .
+  660  git commit -m "update amazon clone readme"
+  661  git push
+  662  python3 remove\ fraction.py 
+  663  git add .
+  664  git commit -m "remove fraction"
+  665  git push
+  666  python3 All\ prime\ number\ range.py 
+  667  clear
+  668  python3 All\ prime\ number\ range.py 
+  669  clear
+  670  python3 All\ prime\ number\ range.py 
+  671  git add .
+  672  git commit -m "find all primes number ranges"
+  673  git push
+  674  git add .
+  675  git commit -m "add readme data"
+  676  git push
+  677  git add .
+  678  git commit -m "Update in Readme file"
+  679  git push
+  680  git add .
+  681  git commit -m "Update in Readme file"
+  682  git add .
+  683  git push
+  684  docker version
+  685  # Add Docker's official GPG key:
+  686  sudo apt-get update
+  687  sudo apt-get install ca-certificates curl
+  688  sudo install -m 0755 -d /etc/apt/keyrings
+  689  sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
+  690  sudo chmod a+r /etc/apt/keyrings/docker.asc
+  691  # Add the repository to Apt sources:
+  692  echo   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
+  693    $(. /etc/os-release && echo "$VERSION_CODENAME") stable" |   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+  694  sudo apt-get update
+  695  sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+  696  sudo docker run hello-world
+  697  docker version
+  698  sudo docker version
+  699  docker
+  700  python3 str\ into\ num\ then\ do\ addition.py 
+  701  git add .
+  702  git commit -m "str into num then do addition"
+  703  git push
+  704  clear
+  705  python3 "find common char in the given str.py" 
+  706  git add .
+  707  git commit -m "find common char in the given st"
+  708  git push
+  709  cd ..
+  710  s
+  711  ls
+  712  cd leetcode_problem_practice/
+  713  code .
+  714  git status
+  715  git push
+  716  cd ..
+  717  cd docker-learning/
+  718  clear
+  719  git add .
+  720  git commit -m "learning Ubuntu"
+  721  git push
+  722  git add .
+  723  git commit -m "searching a files"
+  724  git push
+  725  git add .
+  726  git commit -m "Searching in the files"
+  727  git push
+  728  git add 
+  729  git add .
+  730  git commit -m "Environment Variables"
+  731  git push
+  732  git add .
+  733  git commit -m "User Managements"
+  734  git push
+  735  git add .
+  736  git commmit -m "user Management & FIle permission"
+  737  git commit -m "user Management & FIle permission"
+  738  git push
+  739  docker images
+  740  sudo docker images
+  741  sudo docker run -it ubuntu
+  742  docker ps -a
+  743  sudo docker ps -a
+  744  docker run -it as1
+  745  sudo docker run -it as1
+  746  sudo docker start -i ad1
+  747  sudo docker exec -it ad1
+  748  sudo docker exec -it ad1 bash
+  749  sudo docker start -i ad1
+  750  sudo docker ps
+  751  sudo docker ps -a
+  752  clear
+  753  cd Dockerize\ React\ App/
+  754  npm i
+  755  npm start
+  756  npm update
+  757  npm start
+  758  clear
+  759  npx create react-app@latest
+  760  npx create react-app@latest ./
+  761  npx create-react-app@latest ./
+  762  clear
+  763  npx create-react-app ./
+  764  npx create-react-app doc-react-app ./
+  765  cd ../
+  766  ls
+  767  cd dockerize\ react\ app/
+  768  ls
+  769  docker ps
+  770  sudo docker ps
+  771  sudo docker run -it ubuntu
+  772  sudo docker ps
+  773  sudo docker run -it ubuntu
+  774  clear
+  775  git add .
+  776  git commit -m "Ubuntu commands"
+  777  git push
+  778  cd doc-react-app/
+  779  ls
+  780  npm start
+  781  cd doc-react-app/
+  782  docker build -t react-app .
+  783  sudo docker build -t react-app .
+  784  docker images
+  785  sudo docker images
+  786  docker run -it react-app sh
+  787  sudo docker run -it react-app sh
+  788  clear
+  789  sudo docker build -t react-app .
+  790  sudo docker run -it react-app .
+  791  printenv
+  792  printenv >> noman.txt
+  793  ls
+  794  cat noman.txt 
+  795  git add .
+  796  git commit -m "copy the files, run the commnds, expose the port, add user to the container."
+  797  git push
+  798  sudo docker build -t react-app .
+  799  git add .
+  800  git commit -m "optimize the dockerfile and docrize the react app"
+  801  git push
+  802  git status
+  803  pwd
+  804  ls
+  805  export /home/kali/Downloads/azurecluster.yaml
+  806  export KUBECONFIG=/home/kali/Downloads/azurecluster.yaml
+  807  gistory
+  808  history
+  809  mkdir PDC-ASS-4
+  810  cd PDC-ASS-4/
+  811  gedit program.cpp
+  812  gcc program.cpp -o program.out 
+  813  gcc
+  814  sudo apt install gcc
+  815  gcc program.cpp -o program.out 
+  816  mpic++ -o  program.cpp basic_mpi.cpp
+  817  sudo apt install openmpi-bin
+  818  mpic++ -o mpi_program program.cpp
+  819  sudo apt update
+  820  sudo apt install openmpi-bin libopenmpi-dev
+  821  mpic++ --version
+  822  mpic++ -o program program.cpp
+  823  mpirun -np 4 ./program
+  824  ls
+  825  ./program 
+  826  mpirun -np 2 ./program
+  827  mpirun -np 3 ./program
+  828  mpic++ -o mpi_program mpi_program.cpp
+  829  mpic++ -o program program.cpp
+  830  mpirun -np 4 ./program
+  831  mpirun -n 4 ./program
+  832  mpirun 4 ./program
+  833  mpirun 1 ./program
+  834  mpirun 4 ./program
+  835  ls -l
+  836  ./program 
+  837  ls
+  838  cd cmd/costmodel/
+  839  go run main.go 
+  840  sudo apt-install code_1.90.2-1718751586_amd64.deb
+  841  sudo -dpkg  code_1.90.2-1718751586_amd64.deb
+  842  sudo apt install code_1.90.2-1718751586_amd64.deb
+  843  sudo -dpkg install code_1.90.2-1718751586_amd64.deb
+  844  sudo -dpkg -i code_1.90.2-1718751586_amd64.deb
+  845  clear
+  846  sudo apt install ./code_1.90.2-1718751586_amd64.deb
+  847  clear
+  848  cd ..
+  849  git add .
+  850  git commit -m "saving and loading images"
+  851  git push
+  852  git add .
+  853  git commit -m "publish and executing the command inside the  containers"
+  854  git push
+  855  git add .
+  856  git commit -m "stop and start containers | removing the container and forefully | Persisting the Data using volumns"
+  857  git push
+  858  git add .
+  859  git commit -m "Dockerize the app | copying file between host and containers"
+  860  git push
+  861  clear
+  862  docker images
+  863  sudo docker images
+  864  docker rm <none>
+  865  docker image prune
+  866  sudo docker image prune
+  867  docker image prune
+  868  sudo docker images
+  869  sudo docker image prune
+  870  docker image ls
+  871  docker images
+  872  sudo docker images
+  873  docker rmi hello-world
+  874  sudo docker rmi hello-world
+  875  sudo docker rmi hello-docker
+  876  docker container prune
+  877  sudo docker container prune
+  878  docker ps -a
+  879  sudo docker ps -a
+  880  clear
+  881  sudo docker image prune
+  882  ls
+  883  sudo docker ps -a
+  884  docker images
+  885  sudo docker images
+  886  sudo docker image rm 0b1
+  887  sudo docker images
+  888  cd doc-react-app/
+  889  ls
+  890  clear
+  891  sudo docker build -t react-app:buster
+  892  sudo docker build -t react-app:buster .
+  893  docker image ps
+  894  docker image ls
+  895  sudo docker image ls
+  896  docker image remove react-app:buster
+  897  sudo docker image remove react-app:buster
+  898  sudo docker image react-app:latest react-app:1
+  899  sudo docker image tag react-app:latest react-app:1
+  900  docker image
+  901  docker images
+  902  sudo docker images
+  903  git add .
+  904  git commit -m "tagging the images | removeing the images and prune"
+  905  git push
+  906  cd ..
+  907  git add .
+  908  git commit -m "tagging the images | removeing the images and prune"
+  909  git push
+  910  cd doc-react-app/
+  911  docker images
+  912  sudo docker images
+  913  docker run react-app
+  914  sudo docker run react-app
+  915  sudo docker run -d react-app
+  916  docker ps
+  917  sudo docker ps
+  918  sudo docker run -d --name blue-sky react-app
+  919  sudo docker ps
+  920  sudo docker logs 3d0
+  921  sudo docker logs 626
+  922  sudo docker logs -n 10 626
+  923  sudo docker logs -n 1 626
+  924  clear
+  925  docker run react-app
+  926  sudo docker run react-app
+  927  clear
+  928  sudo docker run -d -p 3000:3000 react-app
+  929  docker ps
+  930  sudo docker ps
+  931  clear
+  932  docker images
+  933  sudo docker images
+  934  sudo docker ps
+  935  sudo docker exec c1 ls
+  936  sudo docker exec d00  ls
+  937  sudo docker exec d00  pwd
+  938  sudo docker exec d00  cd ../
+  939  sudo docker exec d00  cd ..
+  940  sudo docker exec d00  ls
+  941  sudo docker exec d00  mkdir
+  942  sudo docker exec d00  mkdir nomi
+  943  sudo docker exec d00  cd nomi
+  944  sudo docker exec d00  ls
+  945  sudo docker exec -it d00
+  946  sudo docker exec -it d00 sh
+  947  clear
+  948  docker stop react-app
+  949  sudo docker stop react-app
+  950  docker ps
+  951  sudo docker ps
+  952  sudo docker stop d00
+  953  sudo docker stop 3d
+  954  docker ps
+  955  sudo docker ps
+  956  sudo docker stop 626
+  957  sudo docker ps
+  958  sudo start react-app
+  959  sudo docker start react-app
+  960  sudo docker containers
+  961  sudo docker container
+  962  sudo docker container start
+  963  sudo docker ps -a
+  964  sudo docker container start d00
+  965  sudo docker ps
+  966  sudo docker container rm 3d0
+  967  sudo docker rm 626
+  968  sudo docker ps
+  969  sudo docker ps 
+  970  sudo docker ls
+  971  sudo docker volumne  ls
+  972  sudo docker volume  ls
+  973  sudo docker volume  create app-data
+  974  sudo docker volume inspect app-data
+  975  sudo docker volume  create app-data | docker volume inspect app-data
+  976  sudo docker volume  create app-data | sudo docker volume inspect app-data
+  977  clear
+  978  sudo docker run -d -p 4000:3000 -v app-data:/app/data react-app
+  979  docker build -t react-app .
+  980  sudo docker build -t react-app .
+  981  docker images
+  982  sudo docker images
+  983  sudo docker run -d -p 4000:3000 -v app-data:/app/data react-app
+  984  sudo docker ps
+  985  sudo docker stop 98
+  986  sudo docker stop d00
+  987  sudo docker stop 98
+  988  sudo docker ps
+  989  sudo docker run -d -p 4000:3000 -v app-data:/app/data react-app
+  990  sudo docker exec -it 52
+  991  sudo docker exec -it 
+  992  sudo docker ps
+  993  sudo docker exec -it 52d
+  994  sudo docker run -d -p 5000:3000 -v app-data:/app/data react-app
+  995  sudo docker ps
+  996  sudo docker exec -it 52d sh
+  997  sudo docker rm -f 52d
+  998  sudo docker ps
+  999  sudo docker stop e99
+ 1000  sudo docker run 
+ 1001  sudo docker run -d -p 5000:3000 -v app-data:/app/data react-app
+ 1002  sudo docker exec -it react-app sh
+ 1003  sudo docker exec -it ea sh
+ 1004  sudo docker exec -it react-app sh
+ 1005  sudo docker ps
+ 1006  sudo docker exec -it ea5 sh
+ 1007  sudo docker cp ea5:/app/data/log.txt .
+ 1008  clear
+ 1009  sudo docker run -d -p 4002:3000 -v $(pwd):/app react-app
+ 1010  sudo docker exec -it 55 sh
+ 1011  docker ps
+ 1012  sudo docker ps
+ 1013  sudo docker stop 5
+ 1014  sudo docker stop e
+ 1015  sudo docker stop ea
+ 1016  sudo docker stop e
+ 1017  sudo docker ps
+ 1018  sudo docker prune
+ 1019  sudo docker image prune
+ 1020  sudo docker container prun
+ 1021  sudo docker ps -a
+ 1022  pwd
+ 1023  export KUBECONFIG=/home/kali/Downloads/noman.yaml
+ 1024  kubectl get pods
+ 1025  helm install kubecost cost-analyzer --repo https://kubecost.github.io/cost-analyzer/ --namespace kubecost --create-namespace --set kubecostToken="bXVzc2E1NzJAZ21haWwuY29txm343yadf98"
+ 1026  kubectl get pods
+ 1027  kubectl port-forward --namespace kubecost deployment/kubecost-cost-analyzer 9090
+ 1028  helm install prometheus --repo https://prometheus-community.github.io/helm-charts prometheus   --namespace prometheus-system --create-namespace   --set prometheus-pushgateway.enabled=false   --set alertmanager.enabled=false   -f https://raw.githubusercontent.com/opencost/opencost/develop/kubernetes/prometheus/extraScrapeConfigs.yaml
+ 1029  kubectl port-forward --namespace kubecost deployment/kubecost-cost-analyzer 9090
+ 1030  kubectl get namespaces
+ 1031  kubectl get services protheus-system
+ 1032  kubectl port-forward -n prometheus-system svc/prometheus-server 9080:80
+ 1033  kubectl port-forward --namespace kubecost deployment/kubecost-cost-analyzer 9090
+ 1034  export KUBECONFIG=/home/kali/Downloads/noman.yaml
+ 1035  history
+ 1036  clear
+ 1037  kubectl port-forward -n prometheus-system svc/prometheus-server 9080:80
+ 1038  kubectl port-forward -n default svc/noman-opencost  9080:9003
+ 1039  kubectl get services
+ 1040  kubectl port-forward -n default svc/open-opencost  9080:9003
+ 1041  kubectl get services
+ 1042  kubectl port-forward -n default svc/open-opencost  9090:9003
+ 1043  kubectl port-forward -n default svc/open-opencost  9000:9003
+ 1044  kubectl l get services
+ 1045  kubectl  get services
+ 1046  kubectl port-forward -n default svc/open-opencost  9003:9003
+ 1047  kubectl port-forward -n default svc/open-opencost  9080:9090
+ 1048  history
+ 1049  git add .
+ 1050  git commit -m "add img for readme"
+ 1051  git add .
+ 1052  git commit -m "update readme file"
+ 1053  git push
+ 1054  git add .
+ 1055  git commit -m "add deployed link"
+ 1056  git push
+ 1057  bash git clone https://github.com/divyachandana/Sparky.git
+ 1058  sudo docker build -t sparky .
+ 1059  cd Sparky/
+ 1060  sudo docker build -t sparky .
+ 1061  gedit OCR>py
+ 1062  gedit OCR.py
+ 1063  python -m venv ocr_env
+ 1064  python3 -m venv ocr_env
+ 1065  source ocr_env/bin/activate
+ 1066  pip install pytesseract pillow pyttsx3
+ 1067  sudo apt-get install tesseract-ocr
+ 1068  gpedit OCR.py
+ 1069  ls
+ 1070  python3 OCR.py
+ 1071  sudo apt-get install espeak
+ 1072  ldconfig -p | grep libespeak
+ 1073  python3 OCR.py
+ 1074  ls
+ 1075  python3 OCR.py
+ 1076  gedit audio.py
+ 1077  python3 audio.py
+ 1078  sudo apt update
+ 1079  sudo apt install ffmpeg
+ 1080  python3 audio.py
+ 1081  python3 OCR.py
+ 1082  python3 audio.py
+ 1083  python3 OCR.py
+ 1084  python3 audio.py
+ 1085  source ocr_env/bin/activate
+ 1086  python3 OCR.py
+ 1087  source ocr_env/bin/activate
+ 1088  python3 OCR.py
+ 1089  docker-compose --version
+ 1090  sudo apt  install docker-compose
+ 1091  docker-compose --version
+ 1092  docker images
+ 1093  sudo docker images
+ 1094  docker ps
+ 1095  sudo docker ps
+ 1096  docker ps
+ 1097  sudo docker ps
+ 1098  clear
+ 1099  sudo docker images ls -q
+ 1100  sudo docker container rm -f $(docker container ls -aq)
+ 1101  sudo docker container rm -f $(sudo docker container ls -aq)
+ 1102  sudo container -help
+ 1103  sudo container --help
+ 1104  sudo docker container --help
+ 1105  sudo docker container rm -f $(sudo docker container ls -aq)
+ 1106  clear
+ 1107  sudo docker images
+ 1108  sudo docker container
+ 1109  sudo docker container ls
+ 1110  sudo docker container ls -a
+ 1111  sudo docker image rm -f $(sudo docker image ls -q)
+ 1112  docker images
+ 1113  sudo docker images
+ 1114  cd full\ web\ app\ dockerize\ /
+ 1115  ls
+ 1116  clear
+ 1117  docker-compose up
+ 1118  cd full\ web\ app\ dockerize\ /
+ 1119  ls
+ 1120  clear
+ 1121  sudo docker-compose up 
+ 1122  cd vidly/backend/
+ 1123  sudo docker build -t backend .
+ 1124  sudo docker run backend
+ 1125  clear
+ 1126  sudo docker-images
+ 1127  sudo dockerimages
+ 1128  sudo docker images
+ 1129  $ ls -l /var/run/docker.sock
+ 1130  srw-rw---- 1 root docker 0 Jan 31 16:02 /var/run/docker.sock
+ 1131  $ ls -l /var/run/docker.sock
+ 1132  srw-rw---- 1 root docker 0 Jan 31 16:02 /var/run/docker.sock
+ 1133  sudo usermod -aG docker noman
+ 1134  sudo usermod -aG docker nomanali
+ 1135  ls -l /var/run/docker.sock
+ 1136  sudo usermod -aG docker nomanali
+ 1137  sudo groupadd docker
+ 1138  sudo usermod -aG docker $USER
+ 1139  sudo apt-get install -y mongodb-org
+ 1140  sudo apt-get install gnupg curl
+ 1141  curl -fsSL https://www.mongodb.org/static/pgp/server-7.0.asc |    sudo gpg -o /usr/share/keyrings/mongodb-server-7.0.gpg    --dearmor
+ 1142  echo "deb [ arch=amd64,arm64 signed-by=/usr/share/keyrings/mongodb-server-7.0.gpg ] https://repo.mongodb.org/apt/ubuntu jammy/mongodb-org/7.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-7.0.list
+ 1143  sudo apt-get update
+ 1144  sudo apt-get install -y mongodb-org
+ 1145  echo "mongodb-org hold" | sudo dpkg --set-selections
+ 1146  echo "mongodb-org-database hold" | sudo dpkg --set-selections
+ 1147  echo "mongodb-org-server hold" | sudo dpkg --set-selections
+ 1148  echo "mongodb-mongosh hold" | sudo dpkg --set-selections
+ 1149  echo "mongodb-org-mongos hold" | sudo dpkg --set-selections
+ 1150  echo "mongodb-org-tools hold" | sudo dpkg --set-selections
+ 1151  sudo systemctl start mongod
+ 1152  sudo systemctl status mongod
+ 1153  sudo docker image
+ 1154  sudo docker 
+ 1155  sudo docker image rm fro
+ 1156  sudo docker image rm -f f0
+ 1157  sudo docker image rm -f f01
+ 1158  sudo docker image rm -f 1bc
+ 1159  clear
+ 1160  sudo docker image
+ 1161  clear
+ 1162  docker-compose
+ 1163  sudo apt install gnom
+ 1164  docker-compose -version
+ 1165  docker compose version
+ 1166  systemctl --user enable docker-desktop
+ 1167  sudo sysctl -w kernel.apparmor_restrict_unprivileged_userns=0
+ 1168  sudo apt-get install ./docker-desktop-4.30.0-amd64.deb
+ 1169  sudo dpeg  install ./docker-desktop-4.30.0-amd64.deb
+ 1170  sudo dpkg  install ./docker-desktop-4.30.0-amd64.deb
+ 1171  sudo dpkg-deb  install ./docker-desktop-4.30.0-amd64.deb
+ 1172  sudo dpkg-deb  ./docker-desktop-4.30.0-amd64.deb
+ 1173  ls
+ 1174  cd DO
+ 1175  cd Downloads/
+ 1176  ls
+ 1177  sudo apt-get install ./docker-desktop-4.30.0-amd64.deb
+ 1178  systemctl --user start docker-desktop
+ 1179  modprobe kvm
+ 1180  modprobe kvm_intel
+ 1181  kvm-ok
+ 1182  sudo apt install cpu-checker
+ 1183  kvm-ok
+ 1184  lsmod | grep kvm
+ 1185  kvm_amd               167936  0
+ 1186  ccp                   126976  1 kvm_amd
+ 1187  kvm                  1089536  1 kvm_amd
+ 1188  irqbypass              16384  1 kvm
+ 1189  lsmod | grep kvm
+ 1190  ls -al /dev/kvm
+ 1191  sudo usermod -aG kvm $USER
+ 1192  sudo sysctl -w kernel.apparmor_restrict_unprivileged_userns=0 
+ 1193  sudo apt install gnome-terminal
+ 1194  rm /var/run/docker.pid
+ 1195  sudo rm /var/run/docker.pid
+ 1196  sudo systemctl restart docker
+ 1197  sudo dnf remove docker                   docker-client                   docker-client-latest                   docker-common                   docker-latest                   docker-latest-logrotate                   docker-logrotate                   docker-selinux                   docker-engine-selinux                   docker-engine
+ 1198  sudo snap remove docker
+ 1199  sudo apt-get purge -y docker-engine docker docker.io docker-ce  
+ 1200  sudo apt-get autoremove -y --purge docker-engine docker docker.io docker-ce  
+ 1201  sudo umount /var/lib/docker/
+ 1202  sudo rm -rf /var/lib/docker /etc/docker
+ 1203  sudo rm /etc/apparmor.d/docker
+ 1204  sudo groupdel docker
+ 1205  sudo rm -rf /var/run/docker.sock
+ 1206  sudo rm -rf /usr/bin/docker-compose
+ 1207  dpkg -l | grep -i docker
+ 1208  sudo apt remove --purge docker-ce docker-ce-cli containerd.io
+ 1209  sudo rm -rf /var/lib/docker
+ 1210  sudo rm -rf /var/lib/containerd
+ 1211  sudo apt autoremove -y
+ 1212  sudo apt autoclean
+ 1213  cd ..
+ 1214  git add .
+ 1215  git commit -m "clean  workspace"
+ 1216  git push
+ 1217  git status
+ 1218  git add .
+ 1219  git commit -m "JSON | YAML"
+ 1220  git push
+ 1221  cd vidly/
+ 1222  docker-compose up
+ 1223  sudo docker-compose up
+ 1224  pip install --upgrade requests urllib3
+ 1225  pip install --upgrade docker-compose
+ 1226  sudo docker-compose up
+ 1227  cd frontend/
+ 1228  docker build -t frontend .
+ 1229  sudo docker build -t frontend .
+ 1230  cd ..
+ 1231  sudo docker-commpose up
+ 1232  sudo docker-compose up
+ 1233  cd frontend/
+ 1234  docker ps
+ 1235  sudo docker image
+ 1236  sudo docker image ls
+ 1237  sudo docker start f0
+ 1238  sudo docker start frontend
+ 1239  sudo docker run frontend
+ 1240  clear
+ 1241  cd ../
+ 1242  ls
+ 1243  sudo docker-compose up
+ 1244  sudo docker-compose build
+ 1245  clear
+ 1246  cd ...
+ 1247  cd ..
+ 1248  clear
+ 1249  git add .
+ 1250  git commit -m "Building images | creating compose file using yaml"
+ 1251  git push
+ 1252  git status
+ 1253  docker-compose
+ 1254  docker-compose version
+ 1255  cd vidly/
+ 1256  sudo docker-compose up
+ 1257  pip install requests==2.26.0
+ 1258  sudo docker-compose build
+ 1259  sudo uninstall docker
+ 1260  sudo apt-uninstall docker
+ 1261  sudo rm /usr/local/bin/docker-compose
+ 1262  clear
+ 1263  docker network ls
+ 1264  cd  frontend/
+ 1265  npm test
+ 1266  cd ..
+ 1267  git add .
+ 1268  git commit -m "Docker Networking | Viewing the logs | Publishing the changes | Migrating the bd | Running the test inside the container"
+ 1269  git push
+ 1270  git add .
+ 1271  git commit -m "renames folders"
+ 1272  git push
+ 1273  git add .
+ 1274  git commit -m "Update the readme file"
+ 1275  git push
+ 1276  git status
+ 1277  git branch
+ 1278  git checkout development
+ 1279  git pull
+ 1280  git checkout -b initlization-setup-noman
+ 1281  git branch
+ 1282  yarn
+ 1283  yarn run dev
+ 1284  gedit txt.txt
+ 1285  git pull
+ 1286  history
+ 1287  gedit opencost_data.josn
+ 1288  gedit opencost_data.json
+ 1289  ls
+ 1290  export KUBECONFIG=
+ 1291  pwd
+ 1292  export KUBECONFIG=/home/kali/Downloads/noman-cost.yaml
+ 1293  kubectl get nam
+ 1294  history
+ 1295  helm install prometheus --repo https://prometheus-community.github.io/helm-charts prometheus   --namespace prometheus-system --create-namespace   --set prometheus-pushgateway.enabled=false   --set alertmanager.enabled=false   -f https://raw.githubusercontent.com/opencost/opencost/develop/kubernetes/prometheus/extraScrapeConfigs.yaml
+ 1296  kubectl get pods
+ 1297  kubectl get namespces
+ 1298  kubectl get namespaces
+ 1299  history
+ 1300  clear
+ 1301  kubectl port-forward -n default svc/opencost  9090:9090
+ 1302  kubectl port-forward -n default svc/opencost-s  9090:9090
+ 1303  ls
+ 1304  clear
+ 1305  ls
+ 1306  clear
+ 1307  git add .
+ 1308  git commit -m "cost allocation design"
+ 1309  git push
+ 1310  git add .
+ 1311  git commit -m "Design the Cost Allocation page and collect the data from Opencost UI"
+ 1312  git push
+ 1313  git status
+ 1314  cd ..
+ 1315  git clone https://github.com/opencost/opencost-ui.git
+ 1316  cd opencost/
+ 1317  ls
+ 1318  yarn 
+ 1319  cd ../
+ 1320  cd opencost*
+ 1321  ls opencost*
+ 1322  clear
+ 1323  cd ../
+ 1324  git clone https://github.com/opencost/opencost-ui.git
+ 1325  cd..
+ 1326  cd ..
+ 1327  cd opencost-ui/
+ 1328  code  .
+ 1329  twinagte status
+ 1330  twingate status
+ 1331  twingate login
+ 1332  twingate status
+ 1333  yarn run dev
+ 1334  ssh server-hosting-temp@217.196.51.218 -o PreferredAuthentications=password -o PubkeyAuthentication=no
+ 1335  Password: 6nfrM6ZdJOum39Qu7F
+ 1336  ssh server-hosting-temp@217.196.51.218 -o PreferredAuthentications=password -o PubkeyAuthentication=no
+ 1337  git add .
+ 1338  git commit -m "fix : set validation in opertation section at all apis"
+ 1339  git push
+ 1340  git add .
+ 1341  git commit -m "fix : add validation in deleted app in app section"
+ 1342  git push
+ 1343  git add .
+ 1344  git commit -m "fix : failed to get repo in app section done"
+ 1345  git push
+ 1346  git status
+ 1347  git add .
+ 1348  git commit -m "remove the console.log"
+ 1349  git push
+ 1350  cd..
+ 1351  cd ..
+ 1352  cd leetcode_problem_practice/
+ 1353  code .
+ 1354  yarn run dev
+ 1355  ssh server-hosting-temp@217.196.51.218 -o PreferredAuthentications=password -o PubkeyAuthentication=no
+ 1356  python3 Find\ 1\ int\ he\ binery.py 
+ 1357  git add .
+ 1358  git commit -m "find ons in the binery after convert int into bin"
+ 1359  git push
+ 1360  python3 Find\ 1\ int\ he\ binery.py 
+ 1361  git add .
+ 1362  git commit -m "All test cases pass"
+ 1363  git push
+ 1364  code .
+ 1365  python3 Search\ in\ Matrix.py 
+ 1366  git add .
+ 1367  git commit -m "Search in Sorted Matrix in Efficient wats"
+ 1368  git push
+ 1369  export KUBECONFIG=
+ 1370  pwd
+ 1371  export KUBECONFIG=/home/kali/Downloads/noman-opencost.yaml
+ 1372  history
+ 1373  helm install prometheus --repo https://prometheus-community.github.io/helm-charts prometheus   --namespace prometheus-system --create-namespace   --set prometheus-pushgateway.enabled=false   --set alertmanager.enabled=false   -f https://raw.githubusercontent.com/opencost/opencost/develop/kubernetes/prometheus/extraScrapeConfigs.yaml
+ 1374  kubectl port-forward -n default svc/open-opencost  9090:9003
+ 1375  kubectl port-forward -n default svc/open-opencost  9080:9090
+ 1376  export KUBECONFIG=/home/kali/Downloads/noamn.yaml
+ 1377  helm install prometheus --repo https://prometheus-community.github.io/helm-charts prometheus   --namespace prometheus-system --create-namespace   --set prometheus-pushgateway.enabled=false   --set alertmanager.enabled=false   -f https://raw.githubusercontent.com/opencost/opencost/develop/kubernetes/prometheus/extraScrapeConfigs.yaml
+ 1378  kubectl port-forward -n default svc/open-opencost  9080:9090
+ 1379  git add .
+ 1380  git commit -m "fix : install section API calling fixed"
+ 1381  git push
+ 1382  git status
+ 1383  git branch -a
+ 1384  git add .
+ 1385  git commit -m "remove console.log"
+ 1386  git push
+ 1387  git add .
+ 1388  git commit -m "fix : remove cluster data from redux if deleted"
+ 1389  git push
+ 1390  yarn run dev
+ 1391  git status
+ 1392  git add .
+ 1393  git commit -m "Add Library in the Repo"
+ 1394  git push
+ 1395  python3 Convert\ sec\ into\ houra\ mints\ and\ sec.py 
+ 1396  git add .
+ 1397  git commit -m "convert second into hours , mints, sec"
+ 1398  git push
+ 1399  python3 Convert\ sec\ into\ houra\ mints\ and\ sec.py 
+ 1400  git add .
+ 1401  git commit -m "test cases for the convert second"
+ 1402  git add .
+ 1403  git commit -m "test cases for the convert second into proper time"
+ 1404  git push
+ 1405  git status
+ 1406  clear
+ 1407  python3 Valid\ parantheses.py 
+ 1408  ls Valid
+ 1409  python3 Valid\ parantheses.py 
+ 1410  clear
+ 1411  python3 Valid\ parantheses.py 
+ 1412  git add .
+ 1413  git commit -m "valid parantheses leetcode problem done"
+ 1414  git push
+ 1415  python3 Valid\ parantheses.py 
+ 1416  git add .
+ 1417  git commit -m "test cases done on valid paramtheses"
+ 1418  gut oush
+ 1419  gut push
+ 1420  git push
+ 1421  gedit mpi.cpp
+ 1422  mpicxx -o distributed_analysis distributed_analysis.cpp
+ 1423  ls
+ 1424  mpicxx -o mpi mpi.cpp
+ 1425  ./mpi
+ 1426  code .
+ 1427  mpicxx -o mpi  mpi.cpp
+ 1428  ./mpi
+ 1429  mpicxx -o mpi  mpi.cpp
+ 1430  ./mpi
+ 1431  mpicxx -o mpi  mpi.cpp
+ 1432  ./mpi
+ 1433  mpicxx -o mpi  mpi.cpp
+ 1434  ./mpi
+ 1435  mpicxx -o mpi  mpi.cpp
+ 1436  ./mpi
+ 1437  mpicxx -o mpi  mpi.cpp
+ 1438  ./mpi
+ 1439  mpicxx -o simple simple.cpp
+ 1440  ./simple 
+ 1441  mpirun -np 2 ./mpi
+ 1442  mpirun -np 2 ./simple 
+ 1443  mpirun -np 10 ./simple 
+ 1444  mpirun -np 5 ./simple 
+ 1445  mpirun -np 4 ./simple 
+ 1446  mpirun -np 3 ./simple 
+ 1447  mpirun -np 2 ./simple 
+ 1448  mpicxx -o mpi  mpi.cpp
+ 1449  ./mpi 
+ 1450  mpicxx -o mpi  mpi.cpp
+ 1451  ./mpi 
+ 1452  mpicxx -o mpi  mpi.cpp
+ 1453  mpirun -np 4 ./mpi
+ 1454  mpirun -np 2 ./mpi
+ 1455  mpicxx -o mpi  mpi.cpp
+ 1456  mpirun -np 2 ./mpi
+ 1457  mpirun -np 4 ./mpi
+ 1458  mpicxx -o mpi  mpi.cpp
+ 1459  ./mpi 
+ 1460  mpicxx -o mpi  mpi.cpp
+ 1461  mpirun -np 2 ./mpi
+ 1462  mpicxx -o mpi  mpi.cpp
+ 1463  mpirun -np 2 ./mpi
+ 1464  mpicxx -o mpi  mpi.cpp
+ 1465  ./mpi 
+ 1466  mpicxx -o mpi  mpi.cpp
+ 1467  ./mpi 
+ 1468  mpicxx -o mpi  mpi.cpp
+ 1469  ./mpi 
+ 1470  clear
+ 1471  mpicxx -o mpi  mpi.cpp
+ 1472  clear
+ 1473  ./mpi 
+ 1474  clear
+ 1475  mpicxx -o mpi  mpi.cpp
+ 1476  ./mpi 
+ 1477  mpicxx -o mpi  mpi.cpp
+ 1478  ./mpi 
+ 1479  mpicxx -o mpi  mpi.cpp
+ 1480  ./mpi 
+ 1481  clear
+ 1482  mpicxx -o mpi  mpi.cpp
+ 1483  ./mpi 
+ 1484  mpicxx -o mpi  mpi.cpp
+ 1485  ./mpi 
+ 1486  mpicxx -o mpi  mpi.cpp
+ 1487  ./mpi 
+ 1488  mpicxx -o mpi  mpi.cpp
+ 1489  ./mpi 
+ 1490  mpicxx -o mpi  mpi.cpp
+ 1491  ./mpi 
+ 1492  mpicxx -o mpi  mpi.cpp
+ 1493  ./mpi 
+ 1494  mpicxx -o mpi  mpi.cpp
+ 1495  ./mpi 
+ 1496  mpicxx -o mpi  mpi.cpp
+ 1497  ./mpi 
+ 1498  mpicxx -o mpi  mpi.cpp
+ 1499  ./mpi 
+ 1500  mpicxx -o mpi  mpi.cpp
+ 1501  ./mpi 
+ 1502  mpicxx -o mpi  mpi.cpp
+ 1503  ./mpi 
+ 1504  mpicxx -o mpi  mpi.cpp
+ 1505  ./mpi 
+ 1506  mpicxx -o mpi  mpi.cpp
+ 1507  ./mpi 
+ 1508  mpicxx -o mpi  mpi.cpp
+ 1509  ./mpi 
+ 1510  mpicxx -o mpi  mpi.cpp
+ 1511  ./mpi 
+ 1512  mpicxx -o mpi  mpi.cpp
+ 1513  ./mpi 
+ 1514  mpicxx -o mpi  mpi.cpp
+ 1515  ./mpi 
+ 1516  mpicxx -o mpi  mpi.cpp
+ 1517  ./mpi 
+ 1518  mpicxx -o mpi  mpi.cpp
+ 1519  ./mpi 
+ 1520  mpicxx -o mpi  mpi.cpp
+ 1521  ./mpi 
+ 1522  mpicxx -o mpi  mpi.cpp
+ 1523  ./mpi 
+ 1524  mpicxx -o mpi  mpi.cpp
+ 1525  ./mpi 
+ 1526  mpicxx -o mpi  mpi.cpp
+ 1527  ./mpi 
+ 1528  clear
+ 1529  ./mpi 
+ 1530  clear
+ 1531  ./mpi 
+ 1532  mpicxx -o mpi  mpi.cpp
+ 1533  ./mpi 
+ 1534  mpicxx -o mpi  mpi.cpp
+ 1535  ./mpi 
+ 1536  mpicxx -o mpi  mpi.cpp
+ 1537  ./mpi 
+ 1538  mpicxx -o mpi  mpi.cpp
+ 1539  ./mpi 
+ 1540  mpicxx -o mpi  mpi.cpp
+ 1541  ./mpi 
+ 1542  mpicxx -o mpi  mpi.cpp
+ 1543  ./mpi 
+ 1544  mpicxx -o mpi  mpi.cpp
+ 1545  ./mpi 
+ 1546  clear
+ 1547  ./mpi 
+ 1548  mpicxx -o mpi  mpi.cpp
+ 1549  ./mpi 
+ 1550  mpicxx -o mpi  mpi.cpp
+ 1551  ./mpi 
+ 1552  mpicxx -o mpi  mpi.cpp
+ 1553  ./mpi 
+ 1554  mpicxx -o mpi  mpi.cpp
+ 1555  ./mpi 
+ 1556  mpicxx -o mpi  mpi.cpp
+ 1557  ./mpi 
+ 1558  mpicxx -o mpi  mpi.cpp
+ 1559  ./mpi 
+ 1560  mpicxx -o mpi  mpi.cpp
+ 1561  ./mpi 
+ 1562  mpicxx -o mpi  mpi.cpp
+ 1563  ./mpi 
+ 1564  mpicxx -o mpi  mpi.cpp
+ 1565  ./mpi 
+ 1566  mpicxx -o 1Dmpi 1Dmpi.cpp
+ 1567  ./1Dmpi 
+ 1568  mpicxx -o 2Dmpi 2Dmpi.cpp
+ 1569  ./2Dmpi 
+ 1570  clear
+ 1571  git add .
+ 1572  git commit -m "fix : uselocation remove, add useQuery to solve the param Problem"
+ 1573  git push
+ 1574  git add .
+ 1575  git commit -m "fix : summary chart fixed"
+ 1576  git push
+ 1577  git branch
+ 1578  git checkout cost-dashboard-noman
+ 1579  git pull
+ 1580  git status
+ 1581  yarn run dev
+ 1582  code .
+ 1583  git add .
+ 1584  git commit -m "update the readme file"
+ 1585  git push
+ 1586  npm i
+ 1587  npm start
+ 1588  code .
+ 1589  git add .
+ 1590  git commit -m "Add Image in the readme file"
+ 1591  git push
+ 1592  history
+ 1593  export KUBECONFIG=
+ 1594  clear
+ 1595  export KUBECONFIG=/home/kali/Downloads/noman-open.yaml
+ 1596  helm install prometheus --repo https://prometheus-community.github.io/helm-charts prometheus   --namespace prometheus-system --create-namespace   --set prometheus-pushgateway.enabled=false   --set alertmanager.enabled=false   -f https://raw.githubusercontent.com/opencost/opencost/develop/kubernetes/prometheus/extraScrapeConfigs.yaml
+ 1597  helm install prometheus --repo https://prometheus-community.github.io/helm-charts prometheus --namespace prometheus-system --create-namespace --set prometheus-pushgateway.enabled=false --set alertmanager.enabled=false -f https://raw.githubusercontent.com/opencost/opencost/develop/kubernetes/prometheus/extraScrapeConfigs.yaml
+ 1598  git status
+ 1599  git add .
+ 1600  git commit -m "fix color of the SummaryChart & RangeCharrt"
+ 1601  git commit -m "fix color of the SummaryChart & RangeChart"
+ 1602  git push
+ 1603  git status
+ 1604  export KUBECONFIG=/home/kali/Downloads/noman-open.yaml
+ 1605  helm install prometheus --repo https://prometheus-community.github.io/helm-charts prometheus   --namespace prometheus-system --create-namespace   --set prometheus-pushgateway.enabled=false   --set alertmanager.enabled=false   -f https://raw.githubusercontent.com/opencost/opencost/develop/kubernetes/prometheus/extraScrapeConfigs.yaml
+ 1606  history
+ 1607  kubectl port-forward -n default svc/open-opencost  9080:9090
+ 1608  npm i --save-dev @types/lodash
+ 1609  git status
+ 1610  git add .
+ 1611  git commit -m "fix : typeScript Issues"
+ 1612  git push
+ 1613  git status
+ 1614  git add .
+ 1615  git commit -m "fix : allocationReport fixed"
+ 1616  git push
+ 1617  git add .
+ 1618  git commit -m "canPerfectNumber leetcode"
+ 1619  git push
+ 1620  git add .
+ 1621  git commit -m "rename"
+ 1622  git push
+ 1623  git add .
+ 1624  git commit -m "add readme file"
+ 1625  git push
+ 1626  ssh server-hosting-temp@217.196.51.218 -o PreferredAuthentications=password -o PubkeyAuthentication=no
+ 1627  python3 `find all dublicate.py`
+ 1628  python3 all\ dublicate.py 
+ 1629  git add .
+ 1630  git commit -m "return all dublicate in the data"
+ 1631  git add .
+ 1632  git commit -m "run test cases"
+ 1633  git push
+ 1634  python3 mountain.py 
+ 1635  git add .
+ 1636  git commit -m "mountain.py"
+ 1637  git push
+ 1638  python3 mountain.py 
+ 1639  git add .
+ 1640  git commit -m "add test cases"
+ 1641  git push
+ 1642  history
+ 1643  ls | history.txt
+ 1644  ls >  history.txt
+ 1645  ls
+ 1646  history > history.txt 
