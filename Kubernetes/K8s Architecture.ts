@@ -96,3 +96,6 @@
 // kubectl: The Kubernetes command-line tool, kubectl, allows you to run commands against Kubernetes clusters. You can use kubectl to deploy applications, inspect and manage cluster resources, and view logs
 
 // WorkerNode vs MasterNode
+
+// WorkerNode: A worker node is a node that runs the pods. The components that run on a node include the kubelet, a container runtime, and kube-proxy
+// MasterNode: A master node is a node that runs the control plane components, including the API server, controller manager, and scheduler
