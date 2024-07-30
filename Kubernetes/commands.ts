@@ -54,6 +54,9 @@
 // kubectl apply -f {config-file} -> Apply a configuration file
 // Config file is a yaml file that contains the configuration of the deployment like the image, replicas, etc
 
+// kubectl delete -f {config-file of deployment} -> Delete a configuration file
+// kubectl delete -f {config-file of service} -> Delete a configuration file
+// This will delete the deployment and the replica set and the pods
 
 // K8s Yaml Configuration file in kubernetes
 
@@ -64,3 +67,15 @@
 // - Status -> Status of the object like the number of replicas, etc
 
 // see -> configuration-file-step.png for more details
+
+// Where does K8s get this status data?
+
+// - K8s gets the status data from the etcd database which is a key value store that stores all the data of the cluster, How many pods are running, how many replicas are there, etc there is a controller manager that is constantly checking the status of the cluster and updating the etcd database, Self healing is also done by the controller manager, If a pod goes down the controller manager will create a new pod to replace the old one
+
+
+// Formate of the configuration file
+
+// kubectl get pod -o wide -> Get detailed information about a pod including the node it is running on
+// see -> service-connect-with-pods.png
+
+// kubectl get deployment nginx-depl -o yaml -> Get the configuration of a deployment in yaml format
