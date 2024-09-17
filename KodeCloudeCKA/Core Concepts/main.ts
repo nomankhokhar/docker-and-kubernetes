@@ -67,11 +67,131 @@
 // apiVersion: v1
 // kind: Pod
 // metadata:
-//   name: nginx
+//   name: redis
 //   labels:
-//     app: nginx
-//     type: front-end
+//     app: redis
+//     type: redis-end
 // spec:
 //   containers:
-//     - name: nginx
-//       image: nginx:1.14
+//     - name: redis
+//       image: redis123
+
+// kubectl edit pod redis
+
+// -> ReplicaSets
+
+// ReplicaSet is a Kubernetes controller that ensures a specified number of pod replicas are running at any given time.
+
+// apiVersion: apps/v1
+// kind: ReplicaSet
+// metadata:
+//   name: frontend
+//   labels:
+//     app: guestbook
+//     tier: frontend
+// spec:
+//   replicas: 3
+//   selector:
+//     matchLabels:
+//       app: myapp
+//       type: frontend
+//   template:
+//     metadata:
+//       labels:
+//         app: myapp
+//         type: frontend
+//     spec:
+//       containers:
+//         - name: nginx-controller
+//           image: nginx
+
+// kubectl create -f replica.yaml
+// kubectl get replicationcontroller
+
+// kubectl replace -f replica.yaml
+// kubectl scale --replicas=6 -f replica.yaml
+
+// -> Deployments
+
+// apiVersion: apps/v1
+// kind: Deployment
+// metadata:
+//   name: frontend
+//   labels:
+//     app: guestbook
+//     tier: frontend
+// spec:
+//   replicas: 3
+//   selector:
+//     matchLabels:
+//       app: myapp
+//       type: frontend
+//   template:
+//     metadata:
+//       labels:
+//         app: myapp
+//         type: frontend
+//     spec:
+//       containers:
+//         - name: nginx-controller
+//           image: nginx
+
+// -> Services
+
+// NodePort
+// ClusterIP
+// LoadBalancer
+// see images
+
+// apiVersion: v1
+// kind: Service
+// metadata:
+//   name: backend
+// spec:
+//   type:
+//     ClusterIP
+//   ports:
+//       port: 80
+//       targetPort: 80
+//   selector:
+//     app: myapp
+//     type: backend
+
+// kubectl create -f service.yaml
+// kubectl get services
+
+// -> namespaces
+
+// default namespace
+
+// kube-system namespace
+// kube-public namespace
+
+// We can create our own namespace how much resources we want to use and share with specific namespace
+
+// kubectl get pods
+// kubectl get pods -n kube-system // to get pods in kube-system namespace
+
+// kubectl get pods --namespace=kube-system
+
+// Change the namespace in yaml file
+// kubectl config set-context $(kubectl config current-context) --namespace=dev
+
+// apiVersion: v1
+// kind: ResourceQuota
+// metadata:
+//   name: dev-quota
+//   namespace: dev
+// spec:
+//   hard:
+//     pods: "10"
+//     requests.cpu: "4"
+//     requests.memory: 5Gi
+//     limits.cpu: "10"
+//     limits.memory: 10Gi
+
+// -> Imperative vs Declarative
+
+// Imperative is a way to tell the system how to do something
+
+// Declare is a way to tell the system what to do
